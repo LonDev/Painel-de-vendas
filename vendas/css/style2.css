@@ -1,0 +1,123 @@
+*{
+	font-family:"Verdana";
+	margin: 0;
+	color: #DDD;
+}
+body{
+	background-color: #0069a5;
+	background: url("../img/back.png");
+	background-size:  130%;
+	overflow-x: hidden;
+}
+.loading{
+	width: 75%;
+	/*height: 300px;*/
+	margin:  8% auto;
+	background: #fff;
+	border: 1px solid #DDD;
+	border-radius: 10px;
+	text-align: center;
+}
+.hora_passada{
+	padding-top: 10px;
+	padding-left: 5px;
+	text-align: center;
+	height: 35px;
+	width: 100%;
+	/*background: #EDEDED;*/
+}
+.nva_venda, .mogi_venda{
+	background: rgba(10,10,10,0.2);
+	text-align: center;
+	float: left;
+	width:48%;
+	min-height: 65%;
+	margin-top: 8%;
+	border-radius: 10px;
+	border: 1px solid #444;
+	box-shadow: 10px 15px 30px #000;
+}
+.mogi_venda{
+	float: right;
+}
+.container{
+	width:75%;
+	display: ;
+	margin: 10px auto;
+}
+.container_super{
+	width:75%;
+	padding-left: 20%;
+	margin: 8% auto;
+	text-align: center;
+}
+.container_aviso{
+	display: none;
+	background: rgba(255,255,255,0.4);
+	width:80%;
+	margin: 1% auto;
+	text-align: center;
+	padding: 20px;
+	border-radius: 10px;
+}
+#result{
+	font-size: 172px;
+}
+.metas, .atingido, .gap{
+	font-size: 35px;
+}
+h2{
+	font-size: 40px;
+}
+.rodape{
+	font-family:"Bell MT";
+	position: fixed;
+	bottom: 0;
+	margin-top: 10px;
+	padding-top: 5px;
+	width: 100%;
+	height: 30px;
+	background: #EDEDED;
+	text-align: center;
+}
+#vacilo{
+	color: #EDEDED;
+	font-size: 12px;
+	float: right;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+.coroa{
+	width:48%;
+	height: 20px;
+	float: left;
+	text-align: center;
+}
+#super{
+	font-size: 50px;
+	background: #FFF;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	float: left;
+	width: 400px;	
+	height: 75px;
+	text-align: center;
+	border: 1px solid silver;
+	border-radius: 5px;
+}
+.container_aviso .foto_1, .foto_2{
+	width: 40%;
+	float: left;
+	margin-right: 10px;
+}
+.container_aviso .aviso{
+	font-size: 42px;
+	text-align: justify;
+}
+.container_aviso .aviso h3{
+	text-align: center;
+}
+.container_aviso .aviso img{
+	width: 50%;
+	height: 200px;
+}
