@@ -1,12 +1,17 @@
+@font-face{
+	font-family: "Verdana";
+	src :url('Verdana.ttf');
+}
 *{
 	font-family:"Verdana";
 	margin: 0;
-	color: #DDD;
 }
+
 body{
 	background-color: #0069a5;
-	background: url("../img/back.png");
-	background-size:  130%;
+	/*background: url('../img/back.jpg');*/
+	background-size:  110%;
+	background-position: top;
 	overflow-x: hidden;
 }
 .loading{
@@ -22,34 +27,45 @@ body{
 	padding-top: 10px;
 	padding-left: 5px;
 	text-align: center;
-	height: 35px;
+	height: 25px;
 	width: 100%;
+	color: silver;
 	/*background: #EDEDED;*/
 }
 .nva_venda, .mogi_venda{
-	background: rgba(10,10,10,0.2);
+	background:#FFF;
 	text-align: center;
 	float: left;
 	width:48%;
 	min-height: 65%;
-	margin-top: 8%;
+	margin-top: 0%;
 	border-radius: 10px;
-	border: 1px solid #444;
-	box-shadow: 10px 15px 30px #000;
+	border: 1px solid silver;
+	box-shadow: 10px 15px 40px #333;
 }
+#myCarousel{
+	margin-top: 8%;
+	border: 0px solid silver;
+}
+
 .mogi_venda{
 	float: right;
 }
-.container{
-	width:75%;
+.container_result{
+	width:100%;
 	display: ;
-	margin: 10px auto;
+	margin: 0px auto;
 }
 .container_super{
-	width:75%;
-	padding-left: 20%;
-	margin: 8% auto;
+	width:100%;
+	margin: 10px auto;
 	text-align: center;
+	/*border: 1px solid blue;*/
+}
+.container_coroa{
+	width: 50px;
+	height: 50px;
+	margin: 0 auto;
 }
 .container_aviso{
 	display: none;
@@ -61,10 +77,10 @@ body{
 	border-radius: 10px;
 }
 #result{
-	font-size: 172px;
+	font-size: 180px;
 }
 .metas, .atingido, .gap{
-	font-size: 35px;
+	font-size: 40px;
 }
 h2{
 	font-size: 40px;
@@ -80,6 +96,37 @@ h2{
 	background: #EDEDED;
 	text-align: center;
 }
+#super{
+	font-size: 55px;
+	background: #FFF;
+	margin-right: 25px;
+	margin-bottom: 15px;
+	float: left;
+	min-width: 400px;	
+	width: 47%;
+	height: 80px;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 10px 15px 20px #333;
+}
+textarea{
+	min-width: 100%;
+	min-height: 70%;
+	font-size: larger;
+	text-align: justify; 
+}
+.aviso textarea{
+	text-align: justify;
+	border: none;
+	font-size: 45px;
+	width: 100%;
+	min-height: 80%;
+	overflow: hidden;
+}
+h1{
+	font-size: 50px;
+}
+/*
 #vacilo{
 	color: #EDEDED;
 	font-size: 12px;
@@ -87,24 +134,14 @@ h2{
 	margin-top: 5px;
 	margin-right: 5px;
 }
+/*
 .coroa{
 	width:48%;
 	height: 20px;
 	float: left;
 	text-align: center;
 }
-#super{
-	font-size: 50px;
-	background: #FFF;
-	margin-right: 10px;
-	margin-bottom: 10px;
-	float: left;
-	width: 400px;	
-	height: 75px;
-	text-align: center;
-	border: 1px solid silver;
-	border-radius: 5px;
-}
+/*
 .container_aviso .foto_1, .foto_2{
 	width: 40%;
 	float: left;
@@ -121,3 +158,4 @@ h2{
 	width: 50%;
 	height: 200px;
 }
+/*

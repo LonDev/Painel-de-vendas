@@ -6,7 +6,8 @@
 	class Supervisor
 	{
 		private $nome;
-		private $vendas;
+		private $vendas = 0;
+		private $site;
 
 		public function set($prop, $value)
 		{
